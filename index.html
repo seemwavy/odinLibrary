@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>The Odin Library</h1>
+    <div id="entry">
+        <form class="entryForm" action="#" method="post">
+            <h4>Add books to our library</h4>
+            <label for="title">Book title:</label>
+            <input type="text" id="title" name="book title" placeholder="insert book title here"><br>
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="book author" placeholder="insert book author here"><br>
+            <label for="pageCount">How many pages is it?</label>
+            <input type="text" id="pageCount" name="pageCount" placeholder="insert page count here"><br>
+            <label for="read">Have you read already?</label>
+            <input type="checkbox" id="haveRead" name="read" placeholder="insert read status here">
+        </form>
+        
+    </div>
+    <div class="submit">
+        <button type="submit" id="submit">Add book to collection</button>
+    </div>  
+    <div id="cardBox"></div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

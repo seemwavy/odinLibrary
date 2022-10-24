@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: darkolivegreen;
+    background-image: url("odin-lined.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    min-width: 50em;
+    min-height: 50em;
+    max-width: 100em;
+    max-height: 100em;
+}
+h4 {
+    text-align: center;
+}
+
+#entry {
+    display: flex;
+    justify-content: center;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+button {
+    background-color: mediumaquamarine;
+    font-size: large;
+}
+.entryForm {
+    background-color: aquamarine;
+}
+.card {
+    background-color: red;
+    border: 5px black solid;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-image: url('258-2587427_transparent-background-book-icon-png-png-download.png');
+}
+
+p {
+    background-color: aquamarine;
+    font-size: "20px";
+}
